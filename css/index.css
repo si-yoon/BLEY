@@ -186,7 +186,7 @@ body::-webkit-scrollbar-track {
     max-width: 1920px;
     width: 100%;
     height: 2250px;
-    margin: 200px auto 100px;
+    margin: 200px auto 0px;
     text-align: center;
     position: relative;
     box-sizing: border-box;
@@ -313,7 +313,7 @@ figure {
 /* con2 */
 .con2 {
     width: 100%;
-    margin: 200px auto;
+    margin: 0px auto 200px;
 }
 
 h2 {
@@ -928,6 +928,7 @@ h5 {
     max-width: 1920px;
     width: 100%;
     height: 100%;
+    margin: auto;
 }
 
 h6 {
