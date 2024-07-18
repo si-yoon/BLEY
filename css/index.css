@@ -1340,7 +1340,7 @@ footer {
     }
 
     .con5_v>video {
-        width: 60%;
+        width: 80%;
     }
 
     .con5_deco img {
@@ -1444,7 +1444,8 @@ footer {
 
     .con5_v {
         width: 80%;
-        margin-left: 50px;
+        margin-left: 50%;
+        transform: translateX(-50%);
     }
 
     .con5_v_eff {
