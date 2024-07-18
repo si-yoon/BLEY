@@ -791,7 +791,7 @@ h3 {
 
 .swiper-slide img {
     display: block;
-    height: 100%;
+    height: auto;
 }
 
 .slide_txt {
@@ -1900,12 +1900,12 @@ footer {
     }
 
     .con1 p {
-        top: 58%;
+        top: 70%;
         font-size: 1.2rem;
     }
 
     .d_btn_wrap {
-        top: 122%;
+        top: 129%;
     }
 
     .con2 {
@@ -1928,6 +1928,19 @@ footer {
 
     .con3 {
         padding-left: 0;
+    }
+
+    h5{
+        font-size: 1.5rem;
+    }
+
+    h6{
+        font-size: 1.6rem;
+        margin-left: 10px;
+    }
+
+    .f_left>a {
+        font-size: 1.6rem;
     }
 
 }
