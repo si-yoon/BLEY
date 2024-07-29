@@ -882,7 +882,7 @@ h5 {
 }
 
 .con8_imgbox li {
-    width: 45%;
+    /* width: 45%; */
 }
 
 .con8_imgbox>li>a>img {
@@ -1690,6 +1690,13 @@ footer {
         justify-content: space-between;
     }
 
+
+
+    .con8_top>a>img{
+        width: 100%;
+    }
+
+
     .mm_btn {
         display: block;
         padding-top: 12%;
@@ -1733,7 +1740,7 @@ footer {
     .f_right a {
         font-size: 1.5rem;
     }
-    
+
     .con9 {
         height: 30%;
     }
@@ -1753,12 +1760,12 @@ footer {
     }
 
     .con1 p {
-        top: 75%;
-        font-size: 1.9rem;
+        top: 70%;
+        font-size: 1.7rem;
     }
 
     .d_btn_wrap {
-        top: 138%;
+        top: 131%;
     }
 
     .txt_box p {
@@ -1861,12 +1868,15 @@ footer {
 
     .con1 p {
         top: 65%;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .d_btn_wrap {
-        top: 127%;
+        top: 124%;
+    }
 
+    .d_btn_wrap img {
+        width: 80%;
     }
 
     h3 {
@@ -1889,7 +1899,7 @@ footer {
         display: none !important;
     }
 
-   
+
 }
 
 /* 550px */
@@ -1897,17 +1907,23 @@ footer {
 /* 450px */
 @media (max-width:450px) {
     .con1 {
-        height: 900px;
+        height: 780px;
     }
 
     .con1 p {
-        top: 70%;
-        font-size: 1.2rem;
+        top: 80%;
+        font-size: 0.9rem;
     }
 
     .d_btn_wrap {
-        top: 129%;
+        top: 138%;
     }
+
+    .d_btn_hover img,
+    .d_btn img {
+        width: 60%;
+    }
+
 
     .con2 {
         overflow: hidden;
@@ -1931,11 +1947,11 @@ footer {
         padding-left: 0;
     }
 
-    h5{
+    h5 {
         font-size: 1.5rem;
     }
 
-    h6{
+    h6 {
         font-size: 1.6rem;
         margin-left: 10px;
     }
@@ -1947,3 +1963,43 @@ footer {
 }
 
 /* 450px */
+
+/* 400px */
+@media (max-width:400px) {
+    h1 {
+        font-size: 2.3rem;
+    }
+
+    .con1 {
+        height: 780px;
+    }
+
+    .con1 p {
+        top: 62.5%;
+        font-size: 0.9rem;
+    }
+
+    .d_btn_wrap {
+        top: 123%;
+    }
+
+    .d_btn_hover img,
+    .d_btn img {
+        width: 70%;
+    }
+
+
+    .con8_top a img{
+        width: 85%;
+        margin-left: 10px;
+    }
+
+    .poster{
+        margin: 0;
+    }
+
+    .flagship {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+}
